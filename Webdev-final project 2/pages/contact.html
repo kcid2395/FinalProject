@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BBQ Ta Bai - Contact Us</title>
+  <link rel="stylesheet" href="../assets/styles/style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="header">
+    <nav class="navbar container">
+      <div>BBQ Ta Bai</div>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-btn">☰</label>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../pages/about.html">About</a></li>
+        <li><a href="../pages/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="contact-us" class="container">
+      <h2>Contact Us</h2>
+      <p style="text-align: center; margin-bottom: 20px;">We’d love to hear from you! Use the form below or reach out via our contact details.</p>
+
+      <div style="margin-bottom: 30px;">
+        <h3>Our Address</h3>
+        <p>BBQ Ta Bai<br>San Miguel, Cordova , Cebu<br>Phone: 09702353511<br>Email: johnaxcelberdon@gmail.com</p>
+      </div>
+
+      <form action="./thankyou.html">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Your email address" required>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div id="map">
+        <h3>Find Us on the Map</h3>
+       <iframe src="https://www.google.com/maps/embed?pb=!4v1746958768956!6m8!1m7!1sNinL84n8iDhTwmaCkp57Nw!2m2!1d10.26248499730452!2d123.9435203649009!3f348.455215986264!4f-19.78306834068144!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container">
+      <p>© 2025 - BBQ Ta Bai. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
